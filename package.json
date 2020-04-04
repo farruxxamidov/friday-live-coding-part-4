@@ -1,22 +1,29 @@
 {
-  "name": "lecture-markup",
+  "name": "friday-live-coding-part-4",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "style": "sass --watch sass/style.scss sass/style.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "style": "sass --watch src/sass/style.scss src/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ViktoriyaVorozhun/friday-live-coding.git"
+    "url": "git+https://github.com/farruxxamidov/friday-live-coding-part-4.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ViktoriyaVorozhun/friday-live-coding/issues"
+    "url": "https://github.com/farruxxamidov/friday-live-coding-part-4/issues"
   },
-  "homepage": "https://github.com/ViktoriyaVorozhun/friday-live-coding#readme",
+  "homepage": "https://github.com/farruxxamidov/friday-live-coding-part-4#readme",
   "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }
